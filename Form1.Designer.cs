@@ -62,7 +62,6 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
@@ -75,7 +74,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(267, 12);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -168,13 +167,12 @@
             this.tableLayoutPanel2.Controls.Add(this.keyBind, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label5, 0, 0);
             this.tableLayoutPanel2.Enabled = false;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(610, 12);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 168);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(196, 26);
             this.tableLayoutPanel2.TabIndex = 1;
-            this.tableLayoutPanel2.Visible = false;
             // 
             // keyBind
             // 
@@ -199,7 +197,7 @@
             // autoToggle
             // 
             this.autoToggle.AutoSize = true;
-            this.autoToggle.Location = new System.Drawing.Point(467, 174);
+            this.autoToggle.Location = new System.Drawing.Point(212, 241);
             this.autoToggle.Name = "autoToggle";
             this.autoToggle.Size = new System.Drawing.Size(84, 17);
             this.autoToggle.TabIndex = 4;
@@ -209,16 +207,16 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(267, 191);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 258);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(284, 176);
+            this.richTextBox1.Size = new System.Drawing.Size(284, 111);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = "";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(264, 175);
+            this.label6.Location = new System.Drawing.Point(9, 242);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(64, 13);
             this.label6.TabIndex = 6;
@@ -226,7 +224,7 @@
             // 
             // Default
             // 
-            this.Default.Location = new System.Drawing.Point(630, 47);
+            this.Default.Location = new System.Drawing.Point(12, 200);
             this.Default.Name = "Default";
             this.Default.Size = new System.Drawing.Size(75, 23);
             this.Default.TabIndex = 7;
@@ -241,7 +239,7 @@
             // 
             // VR
             // 
-            this.VR.Location = new System.Drawing.Point(711, 47);
+            this.VR.Location = new System.Drawing.Point(99, 200);
             this.VR.Name = "VR";
             this.VR.Size = new System.Drawing.Size(75, 23);
             this.VR.TabIndex = 8;
@@ -267,7 +265,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.currentSetting, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.label7, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(610, 77);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 123);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -294,7 +292,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(802, 412);
+            this.linkLabel1.Location = new System.Drawing.Point(235, 413);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(35, 13);
             this.linkLabel1.TabIndex = 11;
@@ -305,7 +303,7 @@
             // startUp
             // 
             this.startUp.AutoSize = true;
-            this.startUp.Location = new System.Drawing.Point(12, 12);
+            this.startUp.Location = new System.Drawing.Point(12, 409);
             this.startUp.Name = "startUp";
             this.startUp.Size = new System.Drawing.Size(129, 17);
             this.startUp.TabIndex = 12;
@@ -315,7 +313,7 @@
             // 
             // browseFiles
             // 
-            this.browseFiles.Location = new System.Drawing.Point(476, 373);
+            this.browseFiles.Location = new System.Drawing.Point(12, 375);
             this.browseFiles.Name = "browseFiles";
             this.browseFiles.Size = new System.Drawing.Size(75, 23);
             this.browseFiles.TabIndex = 13;
@@ -327,7 +325,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 434);
+            this.ClientSize = new System.Drawing.Size(319, 442);
             this.Controls.Add(this.browseFiles);
             this.Controls.Add(this.startUp);
             this.Controls.Add(this.linkLabel1);
@@ -339,7 +337,9 @@
             this.Controls.Add(this.autoToggle);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "VRAudioManager";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);

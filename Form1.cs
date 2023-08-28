@@ -127,6 +127,11 @@ namespace VRAudioManager
                 Hide();
                 notifyIcon1.Visible = true;
             }
+            else 
+            {
+               Default.Focus();
+            }
+
         }
 
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -143,7 +148,8 @@ namespace VRAudioManager
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if(!showForm)
+            if (!showForm)
+                Default.Focus();
                 Hide();
         }
 
