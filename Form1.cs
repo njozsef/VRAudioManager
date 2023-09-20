@@ -6,6 +6,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 using VRAudioManager.AudioManaging;
+using System.Collections.Generic;
 
 namespace VRAudioManager
 {
@@ -32,7 +33,7 @@ namespace VRAudioManager
             MenuItem menuItemDefault = new MenuItem("Default");
             MenuItem menuItemVR = new MenuItem("VR");
             MenuItem menuItemQuit = new MenuItem("Quit");
-
+           
             menuItemDefault.Click += MenuItemDefault_Click;
             menuItemVR.Click += MenuItemVR_Click;
             menuItemQuit.Click += MenuItemQuit_Click;
@@ -150,7 +151,20 @@ namespace VRAudioManager
         {
             if (!showForm)
                 Default.Focus();
+                removespaces();
                 Hide();
+        }
+
+        private void removespaces()
+        {
+            var trimmedLines = new List<string>();
+
+            foreach (var line in richTextBox1.Lines)
+            {
+                trimmedLines.Add(line.Trim());
+            }
+            richTextBox1.Lines =trimmedLines.ToArray();
+            richTextBox1.SelectionStart = richTextBox1.Text.Length;
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -222,5 +236,10 @@ namespace VRAudioManager
                 richTextBox1.AppendText($"\n{fileName}");
             }
         }
+
+        private void richTextBox1_Click(object sender, EventArgs e)
+        {
+            removespaces();
+                    }
     }
 }

@@ -11,9 +11,6 @@ D:\Programming\Visual Studio\VRAudioManager\VRAudioManager\obj\Debug\VRAudioMana
 D:\Programming\Visual Studio\VRAudioManager\VRAudioManager\obj\Debug\VRAudioManager.csprojResolveAssemblyReference.cache
 D:\Programming\Visual Studio\VRAudioManager\VRAudioManager\obj\Debug\Interop.IWshRuntimeLibrary.dll
 D:\Programming\Visual Studio\VRAudioManager\VRAudioManager\obj\Debug\VRAudioManager.csproj.ResolveComReference.cache
-C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.exe.config
-C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.exe
-C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.pdb
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.csproj.AssemblyReference.cache
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\Interop.IWshRuntimeLibrary.dll
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.csproj.ResolveComReference.cache
@@ -21,6 +18,15 @@ C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManage
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.Properties.Resources.resources
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.csproj.GenerateResource.cache
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.csproj.CoreCompileInputs.cache
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.exe.config
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.exe
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.pdb
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.csproj.CopyComplete
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.exe
 C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.pdb
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.exe.manifest
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\VRAudioManager.application
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.exe.manifest
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\obj\Debug\VRAudioManager.application
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\RunningFiles\nircmdc.exe
+C:\Users\nagyj\OneDrive\Documents\sources\VRAudioManager\bin\Debug\RunningFiles\audio.bat
